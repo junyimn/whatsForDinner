@@ -10,7 +10,7 @@ public class whatsForDinner {
         scan.close();
 
         Random rand = new Random();
-        int r = rand.nextInt(12);
+        int r = rand.nextInt(15);
 
 
         if(r == 0) {
@@ -37,6 +37,12 @@ public class whatsForDinner {
             System.out.println("Chinese");
         }else if (r == 11) {
             System.out.println("Thai");
+        }else if (r == 12) {
+            System.out.println("Peri Peri");
+        }else if (r == 13) {
+            System.out.println("Persian");
+        }else if (r == 14) {
+            System.out.println("French");
         }
     }
 }
